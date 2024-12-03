@@ -1,66 +1,93 @@
 {
-  "id" : "https://am2539.github.io/Demo/images/manifest.json",
-  "label" : {
-    "en" : [ "All images loaded in am2539/Demo project" ]
-  },
-  "type" : "Manifest",
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "width" : 1200,
-    "id" : "https://am2539.github.io/Demo/images/MS_47_detail/canvas/",
-    "label" : {
-      "none" : [ "MS_47_detail" ]
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://am2539.github.io/Demo/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in am2539/Demo project"
+        ]
     },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://am2539.github.io/Demo/images/MS_47_detail/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://am2539.github.io/Demo/images/MS_47_detail/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 38,
-              "height" : 19
-            }, {
-              "width" : 75,
-              "height" : 37
-            }, {
-              "width" : 150,
-              "height" : 73
-            }, {
-              "width" : 300,
-              "height" : 146
-            }, {
-              "width" : 600,
-              "height" : 291
-            }, {
-              "width" : 1200,
-              "height" : 582
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 1200,
-            "@id" : "https://am2539.github.io/Demo/images/MS_47_detail",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 582
-          } ],
-          "format" : "image/jpeg",
-          "width" : 1200,
-          "id" : "https://am2539.github.io/Demo/images/MS_47_detail/full/full/0/default.jpg",
-          "type" : "Image",
-          "height" : 582
-        },
-        "target" : "https://am2539.github.io/Demo/images/MS_47_detail/canvas/"
-      } ]
-    } ],
-    "height" : 582
-  } ]
+    "items": [
+        {
+            "id": "https://am2539.github.io/Demo/images/MS_47_detail/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "MS_47_detail"
+                ]
+            },
+            "height": 582,
+            "width": 1200,
+            "items": [
+                {
+                    "id": "https://am2539.github.io/Demo/images/MS_47_detail/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://am2539.github.io/Demo/images/MS_47_detail/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://am2539.github.io/Demo/images/MS_47_detail/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 38,
+                                                "height": 19
+                                            },
+                                            {
+                                                "width": 75,
+                                                "height": 37
+                                            },
+                                            {
+                                                "width": 150,
+                                                "height": 73
+                                            },
+                                            {
+                                                "width": 300,
+                                                "height": 146
+                                            },
+                                            {
+                                                "width": 600,
+                                                "height": 291
+                                            },
+                                            {
+                                                "width": 1200,
+                                                "height": 582
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1200,
+                                        "@id": "https://am2539.github.io/Demo/images/MS_47_detail",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 582,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://am2539.github.io/Demo/images/MS_47_detail/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
