@@ -2,7 +2,7 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "http://6d081aa9-9612-4ca1-96ee-879a113787da",
 	"@type": "sc:Manifest",
-	"label": "[Click to edit label]",
+	"label": "Anne's Marvelous manifest",
 	"metadata": [],
 	"description": [
 		{
